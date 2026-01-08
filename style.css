@@ -85,7 +85,11 @@ p{
 
 .banner_main_container{
 text-align: center;
+max-width:800px;
+margin: 0 auto;
 }
+
+
 .banner_main_container .early_access_main{
   padding: 8px 12px;
   background-color: #FFFFFF;
@@ -95,11 +99,12 @@ text-align: center;
   font-weight: 500;
 
 }
+
 .banner_main_container h2{
   font-size:72px ;
   font-weight: bold;
   color: #FFFFFF;
-margin-top: 16px;
+margin: 16px 0;
   text-transform: capitalize;
 
 }
@@ -110,9 +115,7 @@ margin-top: 16px;
 
 
 .banner_main_container .banner_para{
- margin: 0 auto;
-  max-width: 770px;
-  padding: 15px;
+padding: 0 30px;
 }
 
 .banner_para p{
@@ -141,6 +144,7 @@ margin-top: 16px;
   background: none;
   border: 1px solid #FFFFFF;
   padding: 16px;
+  color: #FFFFFF;
 }
 
 
@@ -179,7 +183,7 @@ justify-content: center;
 padding: 24px;
 background-color: #FFFFFF;
 flex: 1;
-border-radius: 8px;
+border-radius: 8px 8px 0 0;
 }
 
 .note img{
@@ -191,13 +195,68 @@ padding: 12px;
 }
 
 .note h6{
-  font-size: 29px;
+  font-size: 24px;
   color: #001931;
   font-weight: 600;
 }
 
 
-         
+/* brain section */
+
+
+.brain_section{
+  padding: 120px 0;
+}
+    
+
+.brain_container_main{
+  display: flex;
+  gap:60px ;
+ align-items: center;
+}
+
+
+.brain_info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.brain_info .brain_mini_text{
+  color:#469165 ;
+  text-transform: uppercase;
+}
+
+.brain_info h4{
+  font-weight: bold;
+  font-size: 48px;
+  color: #001931;
+}
+
+
+
+.brain_info_list ul{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap:16px ;
+}
+
+ .brain_info_list .brain_list{
+  display: flex;
+  gap:6px ;
+   color: #001931;
+  font-weight: 500;
+ }
+
+ 
+
+
+
+
+
+
 
 
 
