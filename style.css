@@ -15,7 +15,9 @@ margin: 0 auto;
 }
 
 
-
+.btn:hover{
+  box-shadow: 0 0 20px #469165;
+}
 button{
   border-radius: 4px;
   background-color: #469165;
@@ -72,6 +74,8 @@ p{
 
 }
 
+
+
 /* hero banner design */
 
 .banner_section{
@@ -90,7 +94,7 @@ margin: 0 auto;
 }
 
 
-.banner_main_container .early_access_main{
+.banner_main_container .early_access_demo{
   padding: 8px 12px;
   background-color: #FFFFFF;
   display: inline-block;
@@ -99,6 +103,8 @@ margin: 0 auto;
   font-weight: 500;
 
 }
+
+
 
 .banner_main_container h2{
   font-size:72px ;
@@ -140,11 +146,17 @@ padding: 0 30px;
   gap: 10px;
 }
 
-.hero_button_area #play_btn{
+ #play_btn{
   background: none;
   border: 1px solid #FFFFFF;
   padding: 16px;
   color: #FFFFFF;
+}
+
+#play_btn:hover{
+  border-color: #F95555;
+ color: #469165;
+
 }
 
 
@@ -253,9 +265,9 @@ padding: 12px;
  /* early access section */
 
 
- .early_acess_area{
+ .early_access_area{
 
-  padding: 120px 0;
+padding-bottom: 120px;
 
  }
 
@@ -312,6 +324,48 @@ padding: 0 20px;
 
 
 /* footer area */
+
+.footer_area{
+  padding-top:120px ;
+  background-color: #001931;
+}
+
+
+.footer_item{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+
+.footer_item .social_link_container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social_link_container span{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social_link_container .icons{
+  display: flex;
+  gap: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.copyright_area{
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px 0;
+  border-top: 1px solid rgb(46, 66, 87);
+}
+
+
 
 
 
