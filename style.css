@@ -250,7 +250,71 @@ padding: 12px;
   font-weight: 500;
  }
 
- 
+ /* early access section */
+
+
+ .early_acess_area{
+
+  padding: 120px 0;
+
+ }
+
+
+ .early_access_main_container{
+
+  padding: 60px 0;
+  background-color:#F7F6F2 ;
+border-radius: 12px;
+
+ }
+
+ .early_access_info{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+padding: 0 20px;
+ }
+
+
+ .early_access_info h3{
+  font-size: 40px;
+  font-weight: bold;
+  color:#001931 ;
+  margin-bottom: 16px;
+ }
+
+ .early_access_info p{
+  line-height: 24px;
+  
+ }
+
+
+.early_access_btn_area{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.early_access_btn_area button{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+}
+
+.our_early_access_feature{
+  margin-top: 16px;
+}
+.our_early_access_feature span{
+  color: #627382;
+}
+
+
+/* footer area */
+
+
+
 
 
 
