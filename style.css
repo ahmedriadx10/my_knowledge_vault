@@ -3,3 +3,144 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* shared design */
+body{
+   font-family: "Inter", sans-serif;
+}
+
+.container{
+max-width: 1360px;
+margin: 0 auto;
+}
+
+
+
+button{
+  border-radius: 4px;
+  background-color: #469165;
+  color:#FFFFFF ;
+  font-weight: 600;
+  max-width:max-content;
+  cursor: pointer;
+  border: none;
+}
+
+a{
+  cursor:pointer;
+}
+
+
+
+
+/* individual design */
+
+.navigation_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+
+.navigation_menu img{
+  width: 139px;
+  height: 60px;
+}
+
+
+.navigation_menu ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+
+.navigation_menu ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.navigation_menu button{
+  padding: 12px 16px;
+
+}
+
+/* hero banner design */
+
+.banner_section{
+  padding: 115px 120px 179px;
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.banner_main_container{
+text-align: center;
+}
+.banner_main_container .early_access_main{
+  padding: 8px 12px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  border-radius: 25px;
+  color: #30B868;
+  font-weight: 500;
+
+}
+.banner_main_container h2{
+  font-size:72px ;
+  font-weight: bold;
+  color: #FFFFFF;
+margin-top: 16px;
+  text-transform: capitalize;
+
+}
+
+.banner_main_container .primary{
+  color: #30B868;
+}
+
+
+.banner_main_container .banner_para{
+ margin: 0 auto;
+  max-width: 770px;
+  padding: 15px;
+}
+
+.banner_para p{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.hero_button_area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.hero_button_area .start_btn{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero_button_area #play_btn{
+  background: none;
+  border: 1px solid #FFFFFF;
+  padding: 16px;
+}
+
+
+
+         
+
+
+
