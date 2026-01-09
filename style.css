@@ -1,3 +1,4 @@
+/* universal selection */
 *{
   margin: 0;
   padding: 0;
@@ -14,9 +15,10 @@ max-width: 1360px;
 margin: 0 auto;
 }
 
-
 .btn:hover{
-  box-shadow: 0 0 20px #469165;
+box-shadow: 0 0 20px #469165;
+
+
 }
 button{
   border-radius: 4px;
@@ -97,12 +99,13 @@ margin: 0 auto;
 .banner_main_container .early_access_demo{
   padding: 8px 12px;
   background-color: #FFFFFF;
-  display: inline-block;
+display: inline-block;
   border-radius: 25px;
   color: #30B868;
   font-weight: 500;
-
 }
+
+
 
 
 
@@ -120,13 +123,11 @@ margin: 16px 0;
 }
 
 
-.banner_main_container .banner_para{
-padding: 0 30px;
-}
 
-.banner_para p{
+
+.banner_main_container p{
   font-size: 18px;
-  line-height: 24px;
+  line-height:36px;
   color: #FFFFFF;
   font-weight: 400;
 }
@@ -134,7 +135,6 @@ padding: 0 30px;
 .hero_button_area{
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 16px;
   margin: 24px 0;
 }
@@ -198,6 +198,7 @@ flex: 1;
 border-radius: 8px 8px 0 0;
 }
 
+
 .note img{
   width: 60px;
 padding: 12px;
@@ -238,6 +239,7 @@ padding: 12px;
 .brain_info .brain_mini_text{
   color:#469165 ;
   text-transform: uppercase;
+  font-weight:500 ;
 }
 
 .brain_info h4{
@@ -364,6 +366,8 @@ padding: 0 20px;
   padding: 30px 0;
   border-top: 1px solid rgb(46, 66, 87);
 }
+
+
 
 
 
